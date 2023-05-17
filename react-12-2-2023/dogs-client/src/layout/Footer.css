@@ -1,0 +1,5 @@
+.footer{
+    background-color: #cd90f0;
+    width: 100%;
+    grid-column: 1 / 4;
+}

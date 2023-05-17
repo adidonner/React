@@ -1,0 +1,43 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#root{
+  display:grid;
+  grid-template: 10% 80% 10% / 20% 80%;
+  background-color: mediumorchid;
+}
+
+
+/* header{
+  background-color: mistyrose;
+  height: 100%;
+  grid-column: 1 / 4;
+}
+
+footer{
+  background-color: mediumaquamarine;
+  height: 100%;
+  grid-area: 3 / 1 / 4 / 4;
+}
+
+aside{
+  background-color: maroon;
+  height: 100%;
+  grid-column: 8span;
+}
+
+main{
+  background-color: mediumturquoise;
+  height: 100%;
+  grid-column: 10span;
+}
+
+.flexush{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
