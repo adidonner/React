@@ -1,0 +1,18 @@
+.Home  {
+    border: 2px solid black;
+	text-decoration: underline;
+    
+}
+
+.Home YouTube{
+    justify-content:right;;
+}
+
+.Home ShoeBrands{
+    grid-column: span 1;
+    text-align: right;
+}
+.Home ShoeList{
+    grid-column: span 1;
+    text-align: right;
+}

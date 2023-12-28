@@ -1,0 +1,27 @@
+.Layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 80% 5%;
+    grid-template-columns: repeat(7, 1fr); /*7 equal columns*/
+    
+  }
+  
+  .Layout header {
+    grid-column: span 7;
+
+  }
+  
+  .Layout main {
+    grid-column: span 6;
+  }
+  
+  .Layout footer {
+    grid-column: span 7;
+  }
+  
+  .Layout, .Layout > * {
+    border: 1px solid black;
+    overflow: inherit;
+  }
+  

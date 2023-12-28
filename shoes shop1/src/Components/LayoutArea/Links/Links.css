@@ -1,0 +1,12 @@
+.links {
+    height: 100%;
+	padding: 5%;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+    text-align: right;
+}
+.links a{
+    font-size: small;
+    text-decoration: underline;
+}
