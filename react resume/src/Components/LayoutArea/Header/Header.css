@@ -1,0 +1,16 @@
+.Header {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid black;
+	gap: 20px;
+}
+.Header {
+	color:  powderblue;
+	text-decoration: underline;
+}
+.Header > h1 {
+	color: 	#20B2AA;
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+.skills {
+	height: 100%;
+	width: 100%;
+	border: 2px solid black;
+	padding: 3%;
+	flex-direction: column;
+	justify-content: left;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.skills h2{
+	color: #264566;
+	text-align: left;
+}
+.skills li{
+	color: #3f5c7d;
+	text-align: left;
+	font-size: larger;
+	padding: 2px;
+}

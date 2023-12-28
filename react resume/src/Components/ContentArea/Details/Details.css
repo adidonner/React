@@ -1,0 +1,21 @@
+.details {
+	height: 100%;
+	width: 99%;
+	border: 2px solid black;
+	padding: 3%;
+	flex-direction: column;
+	justify-content: left;
+	box-sizing: border-box;
+	margin-top: 10px;
+	
+}
+
+.details h2{
+	color: #264566;
+	text-align: left;
+}
+.details h3{
+	color: #3f5c7d;
+	text-align: left;
+	font-weight: 500;
+}
