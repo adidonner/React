@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+
+        <script type="module">
+            //Import named exports from the file person.js
+            // import {name, age } from "./person.js";
+
+            // document.getElementById("demo").innerHTML = "My name is "+ name;
+            // document.getElementById("demo").innerHTML += ", I am " + age + ".";
+
+            //import a default export from the file message.js
+            import message from "./message.js";
+            
+            document.getElementById("demo").innerHTML = message();
+        </script>
+    </body>
+</html>

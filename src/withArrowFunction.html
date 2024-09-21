@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Arrow Function</h1>
+
+        <p>This demonstrates a simple function</p>
+
+        <p id="demo"></p>
+        <!-- if you want more print repetition of demo you do add more calling to arrow function like that: -->
+        <!-- <p id="demo1"></p> -->
+        <!-- <p id="demo2"></p> --> 
+
+        <script>
+            hello = () => {
+                return "Hello World!"
+            }
+            document.getElementById("demo").innerHTML = hello();
+            // You also add this:
+            // document.getElementById("demo1").innerHTML = hello();
+            // document.getElementById("demo2").innerHTML = hello();
+        </script>
+        
+
+    </body>
+</html>
